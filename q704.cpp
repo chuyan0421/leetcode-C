@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
     nums.push_back(5);
     nums.push_back(9);
     nums.push_back(12);
-    int target = 9;
+    int target = 7;
 
     Solution s = Solution();
     int resutlt = s.search(nums,target);
