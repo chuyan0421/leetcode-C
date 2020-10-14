@@ -71,13 +71,13 @@ public:
 
 
 int main(int argc, char *argv[]){
-    ListNode * a = new ListNode(4);
-    a->next = new ListNode(5);
+    ListNode * a = new ListNode(2);
+    a->next = new ListNode(4);
     a->next->next = new ListNode(3);
 
-    ListNode * b = new ListNode(7);
+    ListNode * b = new ListNode(5);
     b->next = new ListNode(6);
-    // b->next->next = new ListNode(9);
+    b->next->next = new ListNode(4);
 
     Solution s = Solution();
 
