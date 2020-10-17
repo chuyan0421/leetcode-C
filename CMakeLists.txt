@@ -1,2 +1,2 @@
 set(CMAKE_CXX_STANDARD 11)
-add_executable(q3 q3.cpp)
+add_executable(q7 q7.cpp)
